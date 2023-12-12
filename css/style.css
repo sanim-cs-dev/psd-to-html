@@ -1,0 +1,329 @@
+/* // Common css starts//  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+a{
+    text-decoration: none;
+    color: #3d2514;
+}
+
+ul, ol{ 
+    list-style: none;
+    
+}
+
+#row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#conteinar{
+    width: 1325px;
+    margin: auto;
+    
+}
+
+body{
+
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Alfa Slab One', serif;
+    color: #3d2514;
+}
+
+/* // Common css end//  */
+
+
+
+
+/* banner 1 starts */
+
+
+#banner{
+    height: 825px;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#conteinar{
+    position: relative;
+}
+
+#heading{
+    padding-top: 40px;
+    
+}
+
+#delivery{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+
+}
+
+
+
+#delivery p{
+    display: inline-block;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16.67px;
+    font-weight: 700;
+    padding-left: 8px;
+
+}
+
+
+#menu{
+    text-align: right;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#menu li{
+    display: inline-block;
+    padding-left:  30px;
+}
+
+#title{
+    padding-top: 150px;
+}
+
+#title p{
+    width: 70%;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 12px;
+    border: 1px solid #3d2514;
+    border-style: dashed;
+
+
+}
+
+#title h2{
+    font-family: 'Alfa Slab One', serif;
+    font-size: 105px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+
+#title h3{
+    font-family: 'Alfa Slab One', serif;
+    font-size: 57px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 20px;
+}
+
+
+#banner_img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+/* banner 1 end */
+
+
+/* post start  */
+
+#post{
+    
+    padding-top: 75px;
+    padding-bottom: 75px;
+
+}
+
+#post_1{
+    padding-left: 50px;
+    position: relative;
+}
+
+#post_overlay {
+    position: absolute;
+    top: 0;
+    padding-left: 25px;
+    padding-top: 30px;
+    line-height: 1;
+}
+
+#post_overlay p{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #ffffff;
+
+}
+
+
+#post_overlay h5{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 42px;
+    font-weight: 400;
+    color: #ffffff;
+
+}
+
+#post_2{
+    padding-right: 30px;
+    
+}
+
+#post_2_1{
+    padding-bottom: 32px;
+    position: relative;
+}
+
+/* post end */
+
+
+
+/* product title starts */
+
+#product_title{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#product_title a{
+    background-color: #ffc045;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    padding: 10px 25px;
+    display: inline-block;
+}
+#product_title h5{
+    padding-top: 35px;
+    padding-bottom: 25px;
+    font-family: 'Alfa Slab One', serif;
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+#product_title p{
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* product title end */
+
+
+/* product start */
+
+#product{
+    width: 30%;
+    vertical-align: bottom;
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+#product img{
+    width: 90%;
+}
+
+#shadow{
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+#product h3{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+
+#product p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 35px;
+}
+
+#product button{
+    border: none;
+    background-color: #bf2222 ;
+    color: #ffffff;
+    font-family: 'Alfa Slab One', serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 12px 25px;
+    
+}
+
+/* product end */
+
+
+
+/* post_4 starts */
+
+#post_4{
+    
+    height: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#post_4_title{
+    padding-top: 50px;
+    padding-left: 50px;
+    width: 40%;
+}
+
+#post_4_title h4{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#post_4_title h3{
+    font-family: 'Alfa Slab One', serif;
+    font-size: 41px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+#post_4_title p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+#post_4_image{
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+
+/* post_4 end */
+
+
+#table{
+    
+    background-image: url(../img/banner_2.jpg);
+    height: 730px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
